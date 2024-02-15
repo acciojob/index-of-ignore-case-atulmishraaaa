@@ -6,6 +6,9 @@ function indexOfIgnoreCase(s1, s2) {
 		if(str2[0]===str1[i]){
 			return i;
 		}
+		else{
+			return -1;
+		}
 	}
 }
 
